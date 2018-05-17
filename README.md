@@ -20,7 +20,7 @@ npm run build --report
 ## 介绍:
 采用了vue2.0的全家桶.\
 框架上选用了MUI和Cube-ui.\
-在是配上选择了淘宝的amfe,单位为rem(不想转换就注释/*no*/).\
+在是配上选择了淘宝的amfe,单位为rem(不想转换就注释/星no星/).\
 在调试上使用vsconsole.
 
 数据流向:\
@@ -30,5 +30,5 @@ npm run build --report
 4.路由组件获取新的state.
 
 布局注意:\
-1.因为使用了MUI框架，所以布局要按MUI布局要求来进行.\
+1.因为使用了MUI框架，所以布局要按MUI布局要求来进行.
 
