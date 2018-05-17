@@ -29,6 +29,7 @@ npm run build --report
 3.在mutations中,更新state.\
 4.路由组件获取新的state.
 
-布局注意:\
-1.因为使用了MUI框架，所以布局要按MUI布局要求来进行.
+注意:\
+1.因为使用了MUI框架，所以布局要按MUI布局要求来进行.\
+2.移动端点击延迟，采用了v-tap.
 
