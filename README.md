@@ -17,17 +17,18 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
 ## 介绍:
 采用了vue2.0的全家桶.\
 框架上选用了MUI和Cube-ui.\
-在是配上选择了淘宝的amfe，单位为rem(不想转换就注释/'*'no'*'/).\
+在是配上选择了淘宝的amfe,单位为rem(不想转换就注释/*no*/).\
 在调试上使用vsconsole.
 
 数据流向:\
-1.actions中用axios请求获取到数据;\
-2.在actions中调用mutations中的方法;\
-3.在mutations中,更新state;\
-4.路由组件获取新的state;\
+1.actions中用axios请求获取到数据.\
+2.在actions中调用mutations中的方法.\
+3.在mutations中,更新state.\
+4.路由组件获取新的state.
+
+布局注意:\
+1.因为使用了MUI框架，所以布局要按MUI布局要求来进行.\
 
